@@ -75,6 +75,8 @@ extension UIColor {
         let green = bitmapData.load(fromByteOffset: offset + 2, as: UInt8.self)
         let blue = bitmapData.load(fromByteOffset: offset + 3, as: UInt8.self)
 
+        free(bitmapData)
+
         return UIColor(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255, blue: CGFloat(blue) / 255, alpha: 1)
     }
 }
