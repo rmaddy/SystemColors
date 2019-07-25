@@ -24,6 +24,8 @@
 		1D52EB6222E96BD1004B0C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D52EB6422E96BD1004B0C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D52EB6A22E96C51004B0C95 /* UIColor+RM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RM.swift"; sourceTree = "<group>"; };
+		1D52EB6C22E97693004B0C95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1D52EB6D22E979B9004B0C95 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,8 @@
 		1D52EB4A22E96BD0004B0C95 = {
 			isa = PBXGroup;
 			children = (
+				1D52EB6C22E97693004B0C95 /* README.md */,
+				1D52EB6D22E979B9004B0C95 /* LICENSE */,
 				1D52EB5522E96BD1004B0C95 /* SystemColors */,
 				1D52EB5422E96BD1004B0C95 /* Products */,
 			);
